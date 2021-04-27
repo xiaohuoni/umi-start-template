@@ -1,0 +1,39 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "这是一个很不错的测试库，没什么用，也不会对任何事产生影响，你可以随意修改",
+  "logo": "https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg",
+  "main": "index.js",
+  "scripts": {
+    "start": "a dev",
+    "start:a": "a dev",
+    "start:b": "b dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohuoni/umi-start-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaohuoni/umi-start-template/issues"
+  },
+  "homepage": "https://github.com/xiaohuoni/umi-start-template#readme",
+  "create-umi": {
+    "ignoreScript": [
+      "start*"
+    ],
+    "ignoreDependencies": [
+      "xiaohuoni"
+    ],
+    "ignore": [
+      "something.js",
+      "yarn.lock"
+    ]
+  },
+  "dependencies": {
+    "xiaohuoni": "^0.0.0"
+  }
+}
